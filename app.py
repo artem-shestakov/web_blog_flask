@@ -87,5 +87,6 @@ def create_article():
         return render_template("create_article.html")
 
 
+# Start server
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
